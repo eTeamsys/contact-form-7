@@ -250,7 +250,7 @@ trait WPCF7_Sendinblue_API {
 	public function get_lists() {
 		$endpoint = add_query_arg(
 			array(
-				'limit' => 50,
+				'limit' => 500,
 				'offset' => 0,
 			),
 			'https://api.sendinblue.com/v3/contacts/lists'
